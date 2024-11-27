@@ -146,7 +146,11 @@ const Dashboard = () => {
              inputProps={{ 'aria-label': 'search' }}
              type="text"
              value={searchTerm}
-             onChange={(e) => setSearchTerm(e.target.value)}
+             onChange={(e) => {
+              setSearchTerm(e.target.value);
+              setCurrentPage(1); // Reset to page 1 on a new search
+            }}
+             
             />
             
           </Search>
