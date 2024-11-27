@@ -25,7 +25,7 @@ Make sure you have `Node.js` and `npm` installed. If you don’t have them, you 
 2. Navigate to the project folder:
 
    ```bash
-   cd hacker-news-dashboard
+   cd Hacker_news
    ```
 
 3. Install dependencies:
@@ -49,11 +49,13 @@ hacker-news-dashboard/
 ├── public/              # Static files
 ├── src/                 # Source code
 │   ├── components/      # Reusable components
+|   |   └── Login.jsx
+|   |   └── Signup.jsx
 │   ├── pages/           # Page components
 │   │   └── Dashboard.jsx
 |   |   └── NotFound.jsx
 │   ├── App.jsx          # Main app entry point
-│   ├── App.css          # Global styles
+│   ├── App.css          # Global Tailwind styles
 │   └── index.js         # React entry point
 ├── package.json         # Project dependencies
 ├── README.md            # This file
